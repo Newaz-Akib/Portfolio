@@ -6,7 +6,7 @@
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(to bottom right, #e3f2fd, #fce4ec);
+      background: linear-gradient(to bottom right, #7cbce9, #f7b2c9);
       color: #333;
     }
 
@@ -39,7 +39,7 @@
     }
 
     nav {
-      background: white;
+      background: rgb(255, 255, 255);
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
       padding: 15px 0;
       position: sticky;
@@ -58,7 +58,7 @@
 
     nav a {
       text-decoration: none;
-      color: #4e54c8;
+      color: #7479e4;
       font-weight: 600;
       position: relative;
     }
@@ -68,7 +68,7 @@
       display: block;
       height: 2px;
       width: 0;
-      background: #4e54c8;
+      background: #9398f1;
       transition: 0.3s;
       position: absolute;
       bottom: -5px;
@@ -100,10 +100,10 @@
     }
 
     .card {
-      background: white;
+      background: rgb(194, 243, 241);
       border-radius: 12px;
       padding: 20px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      box-shadow: 0 6px 20px rgba(13, 13, 14, 0.05);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       opacity: 0;
       transform: translateY(30px);
@@ -115,7 +115,7 @@
     }
 
     .card a {
-      color: #4e54c8;
+      color: #8489f1;
       font-weight: 600;
       text-decoration: none;
     }
@@ -132,7 +132,7 @@
     }
 
     footer {
-      background: #4e54c8;
+      background: #8383ee;
       color: white;
       text-align: center;
       padding: 25px;
@@ -172,7 +172,7 @@
     }
 
     .blog-article-card {
-      background: white;
+      background: rgb(194, 243, 241);
       border-radius: 12px;
       padding: 20px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -187,7 +187,7 @@
     .blog-article-card h3 {
       margin-top: 0;
       font-size: 1.4em;
-      color: #4e54c8;
+      color: #777de7;
     }
 
     .blog-article-card p {
@@ -198,7 +198,7 @@
     .blog-article-card a {
       display: inline-block;
       margin-top: 15px;
-      color: #4e54c8;
+      color: #6d73db;
       font-weight: 600;
       text-decoration: none;
     }
