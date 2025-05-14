@@ -206,3 +206,57 @@
     .blog-article-card a:hover {
       text-decoration: underline;
     }
+
+    /* Base style for the entire form */
+#contactForm {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for inputs and textarea */
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Style for the button */
+#contactForm button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  #contactForm {
+    padding: 20px;
+  }
+}
